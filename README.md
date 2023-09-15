@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://berylliumos.com">
-    <img alt="BerylliumOS" src="https://raw.githubusercontent/berylliumos/BerylliumOS/blob/main/assets/beryllium.png" width="546">
+    <img alt="BerylliumOS" src="https://github.com/berylliumos/BerylliumOS/blob/main/assets/beryllium.png" width="546">
   </a>
 </p>
 

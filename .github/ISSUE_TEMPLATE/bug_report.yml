@@ -1,0 +1,33 @@
+name: Bug report
+description: Report a bug in BerylliumOS
+body:
+ - type: checkboxes
+   attributes:
+    label: Prerequisites
+    description: Make sure you've completed the steps below.
+    options:
+     - label: I have searched the [issues](https://github.com/berylliumos/BerylliumOS/issues) for a duplicate.
+       required: true
+     - label: I'm following the [contributing guidelines](https://github.com/berylliumos/BerylliumOS/blob/main/CONTRIBUTING.md)
+       required: true
+ - type: textarea
+   id: description
+   attributes:
+    label: Bug description
+    description: Describe the issue you found, as well as how to reproduce the issue.
+   validations:
+    required: true
+ - type: textarea
+   id: arch
+   attributes:
+    label: Target architecture
+    description: What is the computer architecture you are using? x86, ARM, etc.
+   validations:
+    required: true
+ - type: textarea
+   id: boot
+   attributes:
+    label: Boot media
+    description: What is your boot media? ISO on a real machine, ISO in VirtualBox, hard drive image, etc.
+   validations:
+    required: true

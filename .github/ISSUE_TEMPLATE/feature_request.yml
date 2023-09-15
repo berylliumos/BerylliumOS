@@ -1,0 +1,29 @@
+name: Feature request
+description: Suggestion for a new feature
+title: "Suggest a new feature"
+labels: [feature]
+assignees: []
+body:
+ - type: checkboxes
+   attributes:
+    label: Prerequisites
+    description: Make sure you've completed the steps below.
+    options:
+     - label: I have searched the [issues](https://github.com/berylliumos/BerylliumOS/issues) for a duplicate.
+       required: true
+     - label: I'm following the [contributing guidelines](https://github.com/berylliumos/BerylliumOS/blob/main/CONTRIBUTING.md)
+       required: true
+ - type: textarea
+   id: proposal
+   attributes:
+    label: Proposal
+    description: Provide a detailed description of the feature, and any external resources or documentation.
+   validations:
+    required: true
+ - type: textarea
+   id: motivation
+   attributes:
+    label: Motivation and context
+    description: Tell us why this change is helpful, and the problems it might solve.
+   validations:
+    required: true
